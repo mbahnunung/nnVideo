@@ -179,9 +179,9 @@ nnVideo.features.loadColorThemeByDomain  = true;
 nnVideo.features.playProgressColor       = null;
 nnVideo.features.volumeLevelColor        = null;
 nnVideo.features.markerColor             = null;
-nnVideo.features.backgroundColor         = '#fff'; //'rgba(43, 51, 63, 0.7)';
+nnVideo.features.backgroundColor         = '#000'; //'rgba(43, 51, 63, 0.7)';
 nnVideo.features.colorThemeByDomain      = [
-  { domain: 'tv.mbahnunungonline.net',         playProgressColor: 'white', volumeLevelColor: 'white', markerColor: 'red', backgroundColor: '#fff' },
+  { domain: 'tv.mbahnunungonline.net',         playProgressColor: 'white', volumeLevelColor: 'white', markerColor: 'red', backgroundColor: '#000' },
   { domain: 'detik.com',                       playProgressColor: 'white', volumeLevelColor: 'white', markerColor: 'red', backgroundColor: '#fff' },
   { domain: 'cnnindonesia.com',                playProgressColor: 'DodgerBlue', volumeLevelColor: 'DodgerBlue', markerColor: 'FireBrick', backgroundColor: '#fff' },
   { domain: 'cnbcindonesia.com',               playProgressColor: 'DodgerBlue', volumeLevelColor: 'DodgerBlue', markerColor: 'FireBrick', backgroundColor: '#fff' },
