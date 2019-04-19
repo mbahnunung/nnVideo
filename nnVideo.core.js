@@ -15,7 +15,7 @@ if (typeof jQuery !== 'function') {
 // Chapter 2: Configuration
 var nnVideo = {};
 nnVideo.playerName     = 'nnVideo';
-nnVideo.coreVersion    = '1.0.0'; // VideoJS v7.5.4 , VideoJS-Contrib-Ads v6.6.1 , VideoJS-IMA v1.5.2
+nnVideo.coreVersion    = '1.0.0'; // VideoJS v7.1.0 , VideoJS-Contrib-Ads v6.6.1 , VideoJS-IMA v1.5.2
 nnVideo.companyName    = 'nnNetwork';
 nnVideo.coreHeaderInfo = '[nnVideo.core]';
 
@@ -30,7 +30,7 @@ if (window.location.hostname.indexOf('127.0.0.1') !== -1) {
 };
 
 nnVideo.libs.vjsVersion    = 7;
-nnVideo.libs.vjsCore       = '/lib/video.min.v7.5.4.js';
+nnVideo.libs.vjsCore       = '/lib/video.min.v7.1.0.js';
 nnVideo.libs.vjsCoreAlt    = '/lib/video.min.v6.11.0.js';
 nnVideo.libs.vjsLang       = '/lang/id.js';
 nnVideo.libs.vjsHls        = '/lib/videojs-hlsjs-plugin.v1.0.5.js';
@@ -58,7 +58,7 @@ nnVideo.images.vjsLoading  = '/img/empty1x1.png';
 
 nnVideo.styles = {};
 nnVideo.styles.basePath    = nnVideo.libs.basePath; // as default
-nnVideo.styles.vjsCore     = '/css/video-js.v7.5.4.css';
+nnVideo.styles.vjsCore     = '/css/video-js.v7.1.0.css';
 nnVideo.styles.vjsCoreAlt  = '/css/video-js.v6.11.0.css';
 nnVideo.styles.vjsAds      = '/css/videojs.ads.v6.6.1.css';
 nnVideo.styles.vjsIma      = '/css/videojs.ima.v1.5.2.css';
