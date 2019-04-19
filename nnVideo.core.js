@@ -165,15 +165,7 @@ nnVideo.features.loadVjsContribHls               = false;
 nnVideo.features.loadVjsLoadingByDomain          = false;
 nnVideo.features.vjsLoadingByDomain      = [
   { domain: 'tv.mbahnunungonline.net',      image: '/img/trans7.png' },
-  { domain: 'detik.com',                    image: '/img/20d.png' },
-  { domain: 'cnnindonesia.com',             image: '/img/cnnindonesia.png' },
-  { domain: 'cnbcindonesia.com',            image: '/img/cnbcindonesia.png' },
-  { domain: 'haibunda.com',                 image: '/img/haibunda.png' },
-  { domain: 'insertlive.com',               image: '/img/insertlive.png'},
-  { domain: 'detik.com/transmedia/cnn-tv',  image: '/img/cnnindonesia.png' },
-  { domain: 'detik.com/transmedia/cnbc-tv', image: '/img/cnbcindonesia.png' },
-  { domain: 'detik.com/transmedia/trans-7', image: '/img/trans7.png' },
-  { domain: 'detik.com/transmedia/trans-tv',image: '/img/transtv.png' }
+  
 ];
 nnVideo.features.loadColorThemeByDomain  = true;
 nnVideo.features.playProgressColor       = null;
@@ -182,15 +174,7 @@ nnVideo.features.markerColor             = null;
 nnVideo.features.backgroundColor         = '#000'; //'rgba(43, 51, 63, 0.7)';
 nnVideo.features.colorThemeByDomain      = [
   { domain: 'tv.mbahnunungonline.net',         playProgressColor: 'white', volumeLevelColor: 'white', markerColor: 'red', backgroundColor: '#000' },
-  { domain: 'detik.com',                       playProgressColor: 'white', volumeLevelColor: 'white', markerColor: 'red', backgroundColor: '#fff' },
-  { domain: 'cnnindonesia.com',                playProgressColor: 'DodgerBlue', volumeLevelColor: 'DodgerBlue', markerColor: 'FireBrick', backgroundColor: '#fff' },
-  { domain: 'cnbcindonesia.com',               playProgressColor: 'DodgerBlue', volumeLevelColor: 'DodgerBlue', markerColor: 'FireBrick', backgroundColor: '#fff' },
-  { domain: 'haibunda.com',                    playProgressColor: 'Fuchsia', volumeLevelColor: 'Fuchsia', markerColor: 'DodgerBlue', backgroundColor: '#fff' },
-  { domain: 'insertlive.com',                  playProgressColor: 'white', volumeLevelColor: 'white', markerColor: 'red', backgroundColor: '#fff' },
-  { domain: 'detik.com/transmedia/cnn-tv',     playProgressColor: 'DodgerBlue', volumeLevelColor: 'DodgerBlue', markerColor: 'FireBrick', backgroundColor: '#fff' },
-  { domain: 'detik.com/transmedia/cnbc-tv',    playProgressColor: 'DodgerBlue', volumeLevelColor: 'DodgerBlue', markerColor: 'FireBrick', backgroundColor: '#fff' },
-  { domain: 'detik.com/transmedia/trans-7',    playProgressColor: 'white', volumeLevelColor: 'white', markerColor: 'red', backgroundColor: '#fff' },
-  { domain: 'detik.com/transmedia/trans-tv',   playProgressColor: 'white', volumeLevelColor: 'white', markerColor: 'red', backgroundColor: '#fff' }
+  
 ];
 nnVideo.features.reloadVideoAtEnd           = false;
 nnVideo.features.loadXhrIASDetector         = false;
