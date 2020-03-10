@@ -22,7 +22,7 @@ nnVideo.coreHeaderInfo = '[nnVideo.core]';
 nnVideo.libs = {};
 nnVideo.libs.protocol  = window.location.href.indexOf("https://") === 0 ? "https:" : "http:";
 // basePath default for Production
-nnVideo.libs.basePath      = 'https://warningfm.github.io/nnVideo';
+nnVideo.libs.basePath      = 'https://mbahnunung.github.io/nnVideo';
 if (window.location.hostname.indexOf('127.0.0.1') !== -1) {
   // switch to basePath for Development if domain is 127.0.0.1
   nnVideo.libs.basePath    = nnVideo.libs.protocol+'//127.0.0.1/nnVideo';
